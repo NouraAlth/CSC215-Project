@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-struct Taxies
-{
+typedef struct{
 int id;
 char driver[20];
 char category[20];
@@ -11,7 +10,7 @@ float rate;
 float minCharge;
 char state;
  //  pointer next,pointer list
-};
+}Taxies;
 void setTripCar (char* category, float* rate);
 
 
