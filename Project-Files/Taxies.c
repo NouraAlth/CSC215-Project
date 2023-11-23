@@ -1,5 +1,9 @@
 #include <stdio.h>
-//dimaA
+<<<<<<< HEAD
+//dimaAB
+=======
+/// @brief 
+>>>>>>> 3825e80265173003f6d8e093601342a3d218a284
 struct Taxies
 {
 int id;
