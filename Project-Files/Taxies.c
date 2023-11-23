@@ -1,15 +1,15 @@
 #include <stdio.h>
-
+//dimaA
 struct Taxies
 {
-    int id;
+int id;
 char driver[20];
 char category[20];
 char plate[7];
 char color[20];
 float rate;
- float minCharge;
- char state;
+float minCharge;
+char state;
  //  pointer next,pointer list
 };
 void setTripCar (char* category, float* rate);
