@@ -9,7 +9,7 @@ char color[20];
 float rate;
 float minCharge;
 char state;
-Taxi *next ;
+Taxi *next ; //self-referential
 }Taxi;
 
 void addTripCar();
