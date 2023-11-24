@@ -19,8 +19,8 @@ void writeCarsInRide(char* fileName);
 
 int main(){
 
-/*node* head ;
-head = (node*)malloc(sizeof(node));
+/*Taxi* head ;
+head = (Taxi*)malloc(sizeof(Taxi));
 
 if(head == NULL)
 return 1 ;*/
