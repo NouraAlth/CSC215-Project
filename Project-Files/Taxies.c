@@ -27,7 +27,7 @@ return 0;
 }
 
 void writeCarsInRide(char* fileName){
-
+//cheak if list empty......
 FILE* f ;
 f = fopen(fileName,"a") ;
 if(f != NULL){
@@ -48,12 +48,12 @@ if(cur -> state == 'R'){
 fprintf(f,"%-8d %-8s %-8s %-8s ",cur -> id , cur -> driver , cur -> category);
 fprintf(f,"%-8s %-8d %-8d \n",cur -> plate , cur -> rate , cur -> state );
 }//if state is R
-
+cur = cur -> next ;
 }//while
 
 fclose(f);
 
-}
+}//if the file open
 else
 printf("File could not be opened.");
 
