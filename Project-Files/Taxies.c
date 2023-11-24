@@ -16,7 +16,7 @@ char color[20];
 float rate;
 float minCharge;
 char state;
-node next ;
+node *next ;
 }Taxi;
 
 void addTripCar();
