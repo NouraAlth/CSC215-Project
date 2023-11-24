@@ -18,7 +18,10 @@ float minCharge;
 char state;
 node next ;
 }Taxi;
+
+void addTripCar();
 void setTripCar (char* category, float* rate);
+void writeCarsInRide(char* fileName);
 
 
 int main(){
