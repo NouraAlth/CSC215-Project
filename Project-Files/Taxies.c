@@ -32,6 +32,14 @@ void writeCarsInRide(char* fileName){
 
 FILE* f ;
 
+if(f = fopen(fileName,"a")){
+
 
 fclose(f);
+
+}
+else
+printf("File could not be opened.");
+
+
 }
