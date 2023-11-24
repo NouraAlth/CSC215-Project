@@ -63,8 +63,13 @@ printf("File could not be opened.");
 void printList(){
 
 if(List != NULL){
+struct Taxi *cur = List ; //list is global
+
+while(cur != NULL){
 
 
+cur = cur -> next ;
+}//while
 
 }
 else
