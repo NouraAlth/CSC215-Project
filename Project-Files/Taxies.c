@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+extern Taxi ;
+
+typedef struct{
+Taxi data ;
+node *next ;
+} node ;
+
 typedef struct{
 int id;
 char driver[20];
@@ -9,8 +16,8 @@ char color[20];
 float rate;
 float minCharge;
 char state;
- //  pointer next,pointer list
-}Taxies;
+node next ;
+}Taxi;
 void setTripCar (char* category, float* rate);
 
 
