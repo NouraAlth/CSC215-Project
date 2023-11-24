@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-extern Taxi ;
+/*extern Taxi ;
 
 typedef struct{
 Taxi data ;
 node *next ;
-} node ;
+} node ;*/
 
 typedef struct{
 int id;
@@ -16,7 +16,7 @@ char color[20];
 float rate;
 float minCharge;
 char state;
-node *next ;
+//node *next ;
 }Taxi;
 
 void addTripCar();
@@ -26,11 +26,11 @@ void writeCarsInRide(char* fileName);
 
 int main(){
 
-node* head ;
+/*node* head ;
 head = (node*)malloc(sizeof(node));
 
 if(head == NULL)
-return 1 ;
+return 1 ;*/
 
 return 0;
 }
