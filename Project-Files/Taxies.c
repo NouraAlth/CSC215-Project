@@ -26,5 +26,11 @@ void writeCarsInRide(char* fileName);
 
 int main(){
 
-    return 0;
+node* head ;
+head = (node*)malloc(sizeof(node));
+
+if(head == NULL)
+return 1 ;
+
+return 0;
 }
