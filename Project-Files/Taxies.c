@@ -1,12 +1,5 @@
 #include <stdio.h>
 
-/*extern Taxi ;
-
-typedef struct{
-Taxi data ;
-node *next ;
-} node ;*/
-
 typedef struct{
 int id;
 char driver[20];
@@ -16,7 +9,7 @@ char color[20];
 float rate;
 float minCharge;
 char state;
-//node *next ;
+Taxi *next ;
 }Taxi;
 
 void addTripCar();
@@ -33,4 +26,12 @@ if(head == NULL)
 return 1 ;*/
 
 return 0;
+}
+
+void writeCarsInRide(char* fileName){
+
+FILE* f ;
+
+
+fclose(f);
 }
