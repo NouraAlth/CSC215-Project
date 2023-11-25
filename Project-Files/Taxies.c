@@ -21,6 +21,7 @@ void printList();
 
 int main(){
 
+writeCarsInRide("Taxies.txt");
 
 
 return 0;
