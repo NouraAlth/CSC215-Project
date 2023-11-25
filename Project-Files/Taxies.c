@@ -45,8 +45,8 @@ fprintf(f,"%-8s %-8s %-8s \n","plate","rate","state");
 while(cur != NULL){
 
 if(cur -> state == 'R'){
-fprintf(f,"%-8d %-8s %-8s %-8s ",cur -> id , cur -> driver , cur -> category);
-fprintf(f,"%-8s %-8d %-8d \n",cur -> plate , cur -> rate , cur -> state );
+fprintf(f,"%-8d %-8s %-8s ",cur -> id , cur -> driver , cur -> category);
+fprintf(f,"%-8s %-8f %-8c \n",cur -> plate , cur -> rate , cur -> state );
 }//if state is R
 cur = cur -> next ;
 }//while
