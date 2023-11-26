@@ -28,8 +28,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/hp/Documents/GitHub/CSC215-Project/Project-Files",
-      "program": "c:/Users/hp/Documents/GitHub/CSC215-Project/Project-Files/build/Debug/outDebug",
+      "cwd": "c:/Users/hp/Documents/CSC215-Project",
+      "program": "c:/Users/hp/Documents/CSC215-Project/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
