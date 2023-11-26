@@ -35,8 +35,6 @@ if(f != NULL){
 
 struct Taxi *cur = List ; //List is global
 
-
-fprintf(f,"-----------------------------------------\n");
 fprintf(f,"The Cars in Ride:\n");
 fprintf(f,"%-8s %-8s %-8s ","id","driver","category");//print the first line after -------
 fprintf(f,"%-8s %-8s %-8s \n","plate","rate","state");
