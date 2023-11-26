@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 struct Taxi{
 int id;
@@ -28,7 +29,7 @@ return 0;
 }
 
 void writeCarsInRide(char* fileName){
-//cheak if list empty
+//check if list empty
 if(List == NULL){
 printf("The list is empty! \n");
 return ;
@@ -83,3 +84,20 @@ printf("list is empaty \n");
 
 
 }//end method
+
+void setTripCar (char* category, float* rate){
+  if(List == NULL) {
+    printf("Empty list");
+    return;
+  } 
+  struct Taxi *current;
+  current = List;// points at first element (node) in the list
+  while (current!=NULL ){
+   if(strcomp(current->category,category) == 0 && current->rate == *rate){
+    current->state = 'R'; // in a Ride
+    return;
+   }
+   current = current->next; // moves current to next wether found it or not
+  }
+  
+}
